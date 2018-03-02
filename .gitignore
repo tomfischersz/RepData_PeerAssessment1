@@ -1,0 +1,12 @@
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+
+# Data Folder (often too big for Github)
+data/*
+
+# Some scripts to play with
+# eda*.R
