@@ -8,5 +8,11 @@
 # Data Folder (often too big for Github)
 data/*
 
+
+
 # Some scripts to play with
 # eda*.R
+
+# activity.csv will be unzipped. no need to transfer
+activity.csv
+
