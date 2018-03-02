@@ -11,7 +11,7 @@ data/*
 
 
 # Some scripts to play with
-# eda*.R
+eda??.R
 
 # activity.csv will be unzipped. no need to transfer
 activity.csv
