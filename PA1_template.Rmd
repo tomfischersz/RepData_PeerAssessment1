@@ -8,6 +8,8 @@ output:
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(base.dir = "figure")
+
 options(scipen=999)
 ```
 
@@ -54,7 +56,7 @@ stepsbyday<- tapply(activity$steps, activity$date, sum, na.rm=TRUE)
 **2. Make a histogram of the total number of steps taken each day**
 ```{r plot_histogramm, fig.height = 5, fig.width= 8}
 hist(stepsbyday,
-     breaks = 28,
+     breaks = 26,
      col = 'blue',
      main = 'Histogram of Steps per Day',
      xlab = 'Steps per Day',

@@ -166,7 +166,7 @@ activity$day &lt;- weekdays(activity$date)</code></pre>
 <pre class="r"><code>stepsbyday&lt;- tapply(activity$steps, activity$date, sum, na.rm=TRUE)</code></pre>
 <p><strong>2. Make a histogram of the total number of steps taken each day</strong></p>
 <pre class="r"><code>hist(stepsbyday,
-     breaks = 28,
+     breaks = 26,
      col = 'blue',
      main = 'Histogram of Steps per Day',
      xlab = 'Steps per Day',

@@ -67,7 +67,7 @@ stepsbyday<- tapply(activity$steps, activity$date, sum, na.rm=TRUE)
 
 ```r
 hist(stepsbyday,
-     breaks = 28,
+     breaks = 26,
      col = 'blue',
      main = 'Histogram of Steps per Day',
      xlab = 'Steps per Day',
