@@ -18,5 +18,5 @@ activity.csv
 
 # these files don't need
 PA1_template_cache/*
-PA1_template_files/*
+#PA1_template_files/*
 
