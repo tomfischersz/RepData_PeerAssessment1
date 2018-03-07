@@ -16,3 +16,7 @@ eda??.R
 # activity.csv will be unzipped. no need to transfer
 activity.csv
 
+# these files don't need
+PA1_template_cache/*
+PA1_template_files/*
+
