@@ -8,8 +8,6 @@ output:
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-knitr::opts_knit$set(base.dir = "figure")
-
 options(scipen=999)
 ```
 
